@@ -1,9 +1,9 @@
 import { createServer } from "http";
 import { createYoga } from "graphql-yoga";
 import { makeExecutableSchema } from "@graphql-tools/schema";
-import { typeDefs } from "./graphql/schema";
-import { resolvers } from "./graphql/resolvers";
-import { connectDB } from "./lib/db";
+import { typeDefs } from "./graphql/schema.js";
+import { resolvers } from "./graphql/resolvers.js";
+import { connectDB } from "./lib/db.js";
 import dotenv from "dotenv";
 
 dotenv.config();
