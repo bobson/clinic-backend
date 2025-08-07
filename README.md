@@ -10,7 +10,6 @@ This is the backend for the **Clinic Management App**. It is a Node.js server us
 - **Express**
 - **GraphQL (apollo-server-express)**
 - **MongoDB + Mongoose**
-- **TypeScript (optional if you want to refactor)**
 - **dotenv**
 
 ---
