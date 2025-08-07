@@ -47,7 +47,7 @@
     "strict": true,
     "esModuleInterop": true,
     "skipLibCheck": true,
+    "types": ["node"]
   },
    "include": ["src"],
-   "types": ["node"]
 }
