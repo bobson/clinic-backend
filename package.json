@@ -14,11 +14,10 @@
   "license": "ISC",
   "dependencies": {
     "@graphql-tools/schema": "^10.0.25",
-    "@graphql-yoga/common": "^3.9.1",
-    "@graphql-yoga/node": "^3.9.1",
     "dotenv": "^17.2.1",
     "graphql": "^16.11.0",
     "graphql-tag": "^2.12.6",
+    "graphql-yoga": "^5.15.1",
     "mongoose": "^8.17.0"
   },
   "devDependencies": {

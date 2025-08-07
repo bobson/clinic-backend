@@ -1,5 +1,5 @@
 import { createServer } from "http";
-import { createYoga } from "@graphql-yoga/node";
+import { createYoga } from "graphql-yoga";
 import { makeExecutableSchema } from "@graphql-tools/schema";
 import { typeDefs } from "./graphql/schema.js";
 import { resolvers } from "./graphql/resolvers.js";
