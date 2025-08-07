@@ -30,7 +30,7 @@ This is the backend for the **Clinic Management App**. It is a Node.js server us
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/clinic-backend.git
+git clone https://github.com/bobson/clinic-backend.git
 cd clinic-backend
 
 ```
