@@ -10,6 +10,9 @@ export const resolvers = {
       return await Patient.findById(id);
     },
     appointments: async () => await Appointment.find().populate("patientId"),
+    appointment: async (_, { id }) => {
+      return await Appointment.findById(id).populate("patientId");
+    },
   },
 
   Mutation: {

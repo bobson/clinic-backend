@@ -23,6 +23,7 @@ export const typeDefs = gql`
 
   extend type Query {
     appointments: [Appointment!]!
+    appointment(id: ID!): Appointment
   }
 
   input AddAppointmentInput {
@@ -33,8 +34,9 @@ export const typeDefs = gql`
 
   input UpdateAppointmentInput {
     id: ID!
-    date: String
-    reason: String
+    date: String!
+    reason: String!
+    patientId: ID!
   }
 
   type Mutation {

@@ -16,6 +16,10 @@ const schema = makeExecutableSchema({
 const yoga = createYoga({
   schema,
   graphqlEndpoint: "/graphql",
+  cors: {
+    origin: process.env.FRONTEND_URL || "*", 
+    credentials: true,
+  },
 });
 
 const server = createServer(yoga.requestListener);
